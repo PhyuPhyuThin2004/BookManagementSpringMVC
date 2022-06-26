@@ -19,10 +19,13 @@ class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 <bean id="bookDao" class="Book_Management.persistance.dao.BookDAO"></bean>
 
 <mvc:resources mapping="/pages/**" location="/WEB-INF/pages/" />
-<mvc:annotation-driven/>
+<bean id="myBeansValidator" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean" />
+    <mvc:annotation-driven validator="myBeansValidator"/>
 
-<bean class="org.springframework.context.support.ResourceBundleMessageSource">
+<bean class="org.springframework.context.support.ResourceBundleMessageSource" id = "messageSource">
 <property name="basename" value="messages"></property>
 </bean>
+
+
 	
 </beans> 

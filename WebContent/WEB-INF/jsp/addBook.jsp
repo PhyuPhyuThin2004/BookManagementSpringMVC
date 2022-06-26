@@ -16,22 +16,22 @@
 		<tr>
 			<td>Book Code</td>
 			<td><form:input type="text" path="bookCode"/></td>
-			<td><form:errors path="bookCode" style="color:red;"></form:errors>
+			<td><form:errors path="bookCode" style="color:red;"></form:errors></td>
 		</tr>
 		<tr>
 			<td>Book Title</td>
 			<td><form:input type="text" path="bookTitle"/></td>
-			<td><form:errors path="bookTitle" style="color:red;"></form:errors>
+			<td><form:errors path="bookTitle" style="color:red;"></form:errors></td>
 		</tr>
 		<tr>
 			<td>Book Author</td>
 			<td><form:input type="text" path="bookAuthor"/></td>
-			<td><form:errors path="bookAuthor" style="color:red;"></form:errors>
+			<td><form:errors path="bookAuthor" style="color:red;"></form:errors></td>
 		</tr>
 		<tr>
 			<td>Book Price</td>
 			<td><form:input type="text" path="bookPrice"/></td>
-			<td><form:errors path="bookPrice" style="color:red;"></form:errors>
+			<td><form:errors path="bookPrice" style="color:red;"></form:errors></td>
 		</tr>
 		<tr>
 			<td></td>
