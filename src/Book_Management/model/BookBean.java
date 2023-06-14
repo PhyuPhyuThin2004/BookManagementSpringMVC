@@ -1,7 +1,7 @@
 package Book_Management.model;
 
 import javax.validation.constraints.NotEmpty;
-
+//here
 public class BookBean {
 	@NotEmpty
 	private String bookCode;
