@@ -22,6 +22,9 @@ import Book_Management.persistance.dto.BookResponseDTO;
 
 @Controller
 public class BookController {
+
+	
+	// ===== === ==>
 	@Autowired
 	private BookDAO dao;
 	@RequestMapping(value="/", method=RequestMethod.GET)
@@ -84,6 +87,7 @@ public class BookController {
 		}
 		return "redirect:/displaybook";
 	}
+
 	
 	@RequestMapping(value="/deleteBook/{bookCode}", method=RequestMethod.GET)
 	public String deleteBook(@PathVariable String bookCode,ModelMap model) {
